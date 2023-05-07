@@ -72,42 +72,36 @@
             <div class="serv-content">
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-code"></i>
                         <div class="text">Web Development</div>
                         <p>Website Design and Development, Website Optimazation, E-commerce Deveelopment, Content Managenment System, Responsive Design .</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-code"></i>
                         <div class="text">Application Design</div>
                         <p>User Experience Design, User Interfcace Design, Responsive Design, Design System, Prototyping and Testing, System Architecture Design.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-code"></i>
                         <div class="text">Mobile Application Deveelopment</div>
                         <p>Mobile Application Design and Development, Cross-Platform Development, E-commerce Mobile Applications, API Deveelopment And Integration, Mobile App Testing .</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-mobile"></i>
                         <div class="text">Software Engineering</div>
                         <p>Backend Deveelopment, Software Testing, Software Maintainance and support, Software Design and Deveelopment, Git For Version Control, API Documentation.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-chart-line"></i>
                         <div class="text">Design Thinking System</div>
                         <p>Problem Framing, Empathy and User Research, Design Thinking,  Ideation and Prototyping, User Testing and Feedback, Iterative Design,.</p>
                     </div>
                 </div>
                 <div class="card">
                     <div class="box">
-                        <i class="fas fa-code"></i>
                         <div class="text">Industrial Design</div>
                         <p>Design Research, Sketching and Ideation, User Testing and Feedback, Brand Identity and Packaging Design, Concept Ideation..</p>
                     </div>
@@ -120,7 +114,7 @@
     <!-- skills section start -->
     <section class="skills" id="skills">
         <div class="max-width">
-            <h2 class="title">My skills</h2>
+            <h2 class="title"><b>My Skills</b></h2>
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My Experience</div>
@@ -130,8 +124,7 @@
                     <div class="text">My Creative Skills</div>
                     <p>Creative Problem Solving, Innovative Thinking, Collaboration, Attention to Details, Adaptability, Creativity, User Experience Design, Agile Developer(Scrum), Strong Communication Skills, Continous learning, User Centered Design, Prototyping and Testing.</p>
         
-                  
-                    <a href="#">Read more</a>
+            
                 </div>
                 <div class="column right">
                     <div class="bars">
@@ -184,7 +177,7 @@
     <!-- teams section start -->
     <section class="teams" id="teams">
         <div class="max-width">
-            <h2 class="title">My Friends</h2>
+            <h2 class="title"><b>My Friends</b></h2>
             <div class="carousel owl-carousel">
                 <div class="card">
                     <div class="box">
@@ -228,10 +221,10 @@
     <!-- contact section start -->
     <section class="contact" id="contact">
         <div class="max-width">
-            <h2 class="title">Contact me</h2>
+            <h4 class="title"><b>Contact me</b></h4>
             <div class="contact-content">
                 <div class="column left">
-                    <div class="text">Get in Touch</div>
+                    <div class="text"><h3>Get in Touch</h3></div>
                     <p>I am always looking for new Challenges and Opportunity to Collaborate with other in the tech industry, whether you're interested in my current work or have a new project in mind, i will be excited to hear from you.</p>
                     <p>If you have any question or would like to discuss any potential opportunities further, please don't hesitate to get in touch.</p>
                     <div class="icons">
@@ -303,10 +296,31 @@
                 Subject : document.getElementById("subject").value,
                 Body : document.getElementById("message").value
             }).then(
-            message => alert(message)
+        () => {
+          alert('Message successfully sent!')
+          window.location.reload(false)
+        },
+        () => {
+          alert('Failed to send the message, please try again')
+        }
             );
         }
     </script>
 </body>
-
+<footer id="pages">
+    <div class="media-page">
+      <ul class="nav footer-nav">
+        <li>
+          <a href="http://github.com" target="_blank">
+            <img src="/images/github-logo.png" alt="github-logo" />
+          </a>
+        </li>
+        <li>
+          <a href="http://twitter.com" target="_blank">
+            <img src="/images/twitter.png" alt="Twitter-logo" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </html>

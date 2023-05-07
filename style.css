@@ -660,3 +660,16 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+   
+   .footer-nav li{
+    display: inline-block;
+    padding: 5px;
+}
+   
+   
+   .footer-nav img{
+     width: 40px;
+     height: 40px;
+   }
+   
