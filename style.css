@@ -212,10 +212,6 @@ section .title::after{
     background: none;
 }
 
-/* about section styling */
-/* .about .title::after{ */
-    /* content: "who I am"; */
-/* } */
 .about .about-content .left{
     width: 45%;
 }
@@ -393,6 +389,24 @@ section .title::after{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+}
+
+.code{
+    color: #fff;
+    font-weight: 700;
+    background: goldenrod;
+    font-size: 15px;
+    padding: 5px;
+    border-radius: 6px;
+    border: 2px solid goldenrod;
+    transition: all 0.3s ease;
+    outline: none;
+    cursor: pointer;
+}
+
+.teams .carousel .card:hover .code{
+    background: #171616;
+    border-color: #171616;
 }
 .teams .carousel .card img{
     height: 150px;
